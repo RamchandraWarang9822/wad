@@ -1,0 +1,23 @@
+# Displays the version of Git installed on your system.
+git --version  
+
+# Initializes a new Git repository in the current directory, creating a new empty repository.
+git init  
+
+# Adds all the files in the current directory and its subdirectories to the staging area, preparing them to be committed.
+git add .  
+
+# Shows the status of the files in the repository, indicating which files are modified, staged, or untracked.
+git status  
+
+# Adds a remote repository named 'origin' with the specified URL to the local Git repository.
+git remote add origin "https://github.com/RamchandraWarang9822/git-practice.git"  
+
+# Commits the changes in the staging area to the local repository, creating a new commit with the given commit message.
+git commit -m "first commit"  
+
+# Shows the status of the files in the repository after the commit.
+git status  
+
+# Pushes the local commits to the remote 'origin' repository.
+git push -u origin master  
